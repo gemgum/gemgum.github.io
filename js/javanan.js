@@ -7,7 +7,10 @@ $('.skrol').on('click', function(e){
     var ele = $(refs);
     //console.log(ele.offset().top);     
 
-    $('body').scrollTop(ele.offset().top);
+    $('html,body').animate({
+        scrollTop: ele.offset().top - 50
+
+    },1000,'swing');
 
     e.preventDefault();
 });
