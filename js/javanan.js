@@ -10,7 +10,7 @@ $('.skrol').on('click', function(e){
     $('html,body').animate({
         scrollTop: ele.offset().top - 50
 
-    },1000,'swing');
+    },500,'swing');
 
     e.preventDefault();
 });
