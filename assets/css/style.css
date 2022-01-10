@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 50px;
   font-size: 64px;
   font-weight: 700;
-  
+  margin-bottom: 10px;
   line-height: 56px;
   color: #fff;
 }
@@ -588,7 +588,7 @@ section {
   margin-top: 10px;
 }
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  padding-top: 1px;
 }
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
